@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+.risk-card {
+  transition: all 0.3s ease;
+}
+
+.risk-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.risk-score-high {
+  color: #fa541c;
+  font-weight: bold;
+}
+
+.risk-score-medium {
+  color: #faad14;
+  font-weight: bold;
+}
+
+.risk-score-low {
+  color: #52c41a;
+  font-weight: bold;
+}
+
+.entity-row-high-risk {
+  background-color: #fff2e8;
+}
+
+.entity-row-critical-risk {
+  background-color: #fff1f0;
+}
+
+.chart-container {
+  height: 400px;
+  padding: 16px;
+}
+
+.recommendation-card {
+  border-left: 4px solid #1890ff;
+}
+
+.recommendation-card.high-priority {
+  border-left-color: #fa541c;
+}
+
+.recommendation-card.medium-priority {
+  border-left-color: #faad14;
+}
+
+.pattern-card {
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 8px;
+  background: #fafafa;
+}
+
+.pattern-card.high-weight {
+  border-color: #fa541c;
+  background: #fff2e8;
+}
+
+.trend-up {
+  color: #fa541c;
+}
+
+.trend-down {
+  color: #52c41a;
+}
+
+.trend-stable {
+  color: #1890ff;
+}
